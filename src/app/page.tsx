@@ -29,7 +29,34 @@ export default function HomePage() {
     ? products
     : products.filter(p => p.category === category);
 
- {/* return (
+const isUnderConstruction = true; // Cambia in false quando vuoi mostrare il sito
+
+      
+
+return (
+  <>
+    {isUnderConstruction && (
+      <div style={{
+        position: 'fixed',
+        top: 0,
+        left: 0,
+        width: '100vw',
+        height: '100vh',
+        backgroundColor: 'rgba(0,0,0,0.7)',
+        color: 'white',
+        zIndex: 9999,
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+        fontSize: '2rem',
+        textAlign: 'center'
+      }}>
+        🚧 Sito in fase di creazione 🚧
+        <p style={{ fontSize: '1rem', marginTop: '1rem' }}>Stiamo lavorando per offrirti il meglio</p>
+      </div>
+    )}
+
     <main>
        Header 
       <header className="header">
@@ -45,7 +72,7 @@ export default function HomePage() {
         </div>
       </header>
 
-      {/* Hero 
+      {/* Hero */}
       <section className="hero">
         <div className="hero-content">
           <h1>La Botteghella</h1>
@@ -54,7 +81,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Features 
+      {/* Features */} 
       <section className="features">
         <div className="container">
           <h2 className="section-title">Perché Scegliere La Botteghella</h2>
@@ -80,7 +107,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Shop 
+      {/* Shop */}
       <section className="shop active">
         <div className="container">
           <h2 className="section-title">I Nostri Prodotti</h2>
@@ -116,7 +143,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Footer 
+      {/* Footer */}
       <footer className="footer" id="contatti">
         <div className="container">
           <h3>La Botteghella</h3>
@@ -126,12 +153,7 @@ export default function HomePage() {
         </div>
       </footer>
     </main>
-  );
-} */}
-
-return (
-  <main style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100vh' }}>
-    <h1 style={{ fontSize: '2rem', textAlign: 'center' }}>🚧 Sito in fase di creazione 🚧</h1>
-  </main>
+  </>
 );
+
 }
