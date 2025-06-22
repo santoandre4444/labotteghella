@@ -1,5 +1,5 @@
 'use client';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import './globals.css'; // Assicurati che il CSS sia lì
 
 type Product = {
