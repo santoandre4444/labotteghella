@@ -29,9 +29,9 @@ export default function HomePage() {
     ? products
     : products.filter(p => p.category === category);
 
-  return (
+ {/* return (
     <main>
-      {/* Header */}
+       Header 
       <header className="header">
         <div className="nav-container">
           <div className="logo">La Botteghella</div>
@@ -45,7 +45,7 @@ export default function HomePage() {
         </div>
       </header>
 
-      {/* Hero */}
+      {/* Hero 
       <section className="hero">
         <div className="hero-content">
           <h1>La Botteghella</h1>
@@ -54,7 +54,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Features */}
+      {/* Features 
       <section className="features">
         <div className="container">
           <h2 className="section-title">Perché Scegliere La Botteghella</h2>
@@ -80,7 +80,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Shop */}
+      {/* Shop 
       <section className="shop active">
         <div className="container">
           <h2 className="section-title">I Nostri Prodotti</h2>
@@ -116,7 +116,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Footer */}
+      {/* Footer 
       <footer className="footer" id="contatti">
         <div className="container">
           <h3>La Botteghella</h3>
@@ -127,4 +127,11 @@ export default function HomePage() {
       </footer>
     </main>
   );
+} */}
+
+return (
+  <main style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100vh' }}>
+    <h1 style={{ fontSize: '2rem', textAlign: 'center' }}>🚧 Sito in fase di creazione 🚧</h1>
+  </main>
+);
 }
