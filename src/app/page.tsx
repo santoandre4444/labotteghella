@@ -124,7 +124,7 @@ const LaBotteghella: React.FC = () => {
       <section className="hero" id="home">
         <div className="container">
           <h1>LA BOTTEGHELLA</h1>
-          <p>A Mezzano, la salumeria "La Botteghella" dove la qualità ha profonde radici e grande prestigio, perché interpreta alla perfezione la storia e la cultura di questa terra antica, ma allo stesso tempo viva.</p>
+          <p>A Mezzano, la salumeria La Botteghella, dove la qualità ha profonde radici e grande prestigio, perché interpreta alla perfezione la storia e la cultura di questa terra antica, ma allo stesso tempo viva.</p>
           <a href="#prodotti" className="btn-primary" onClick={(e) => handleSmoothScroll(e, '#prodotti')}>
             Scopri i Prodotti
           </a>
